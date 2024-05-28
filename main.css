@@ -1,0 +1,37 @@
+body {
+
+    font-family: monospace;
+
+}
+
+ul {
+
+    font-family: monospace;
+
+}
+
+li {
+
+    list-style: circle;
+
+}
+
+.list {
+
+    list-style: square;
+
+}
+
+#mensagem {
+
+    font-family: monospace;
+
+}
+
+.light-theme {
+
+    color: #ffffff;
+
+    background: #009dff;
+
+}
