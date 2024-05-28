@@ -1,6 +1,14 @@
+* {
+
+color: var(--fontColor);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
 body {
 
-    font-family: monospace;
+    background: var(--bg);
 
 }
 
@@ -22,16 +30,26 @@ li {
 
 }
 
-#mensagem {
+.light-theme {
 
-    font-family: monospace;
+    --bg: var(--blue);
+    --fontColor: var(--white);
 
 }
 
-.light-theme {
+.dark-theme {
 
-    color: #ffffff;
+    --bg: var(--black);
+    --fontColor: var(--white);
 
-    background: #009dff;
+}
+
+/* O seletor de root representa o elemento <html> na página HTML. Para esse tipo de tarefa, uma melhor prática é definir um conjunto de variáveis CSS globais no elemento :root. */
+
+:root {
+
+    --blue: #009dff;
+    --white: #ffffff;
+    --black: #000000;
 
 }
